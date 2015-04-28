@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<title>画廊特效</title>
+</head>
+<body>
+<div id="wrap">
+	<div class="container wrap">
+		<ul class="photos list-unstyled">
+			<li id="photo{{id}}" class="photo-list photo-front">
+				<div class="photo-wrap">
+					<div class="side side-front">
+						<img class="photo-img" src="{{image}}" alt="">
+					</div>
+					<div class="side side-back">
+						<h2 class="photo-title">{{title}}</h2>
+						<p class="photo-content">{{content}}</p>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<script src="js/jquery-2.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
